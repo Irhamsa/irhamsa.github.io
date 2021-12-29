@@ -72,5 +72,12 @@
       <!-- End Form Login -->  
     </div>
     <!-- End Container -->
+    <script>
+      let error = document.getElementsByClassName('error')[0];
+      let submit = document.getElementById('submit');
+      submit.addEventListener('click', function() {
+        error.style.display = "block";
+      });
+    </script>
   </body>
 </html>
